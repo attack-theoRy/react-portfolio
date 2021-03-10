@@ -43,6 +43,7 @@ function App() {
         <Route path="/portfolios" component={Portfolios} />
      {/*    <Route path="/blogs" exact component={Blogs} /> */}
     {/*    <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />*/}
+      <Route path="/contact" component={Contact} />
         <Route path="*" component={Notfound} />
       </Switch>
     </BrowserRouter>
