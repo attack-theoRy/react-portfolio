@@ -95,52 +95,57 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "T-shirt Mockup",
-      subtitle: "A beautiful t-shirt mockup.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      title: "Project Wknd",
+      subtitle: "Find something to do on the weekend",
+      imageUrl: "../images/unsplash.jpg",
+      largeImageUrl: ["unsplash.jpg"],
+      url: 'https://attack-theory.github.io/ProjectWknd/homePage.html'
     },
     {
       id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
+      title: "Project WORM",
+      subtitle: "Find books and create your own bookshelf",
+      imageUrl: "../images/SampleBookShelf.png",
       largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
+        "../images/SampleBookShelf.png",
+        "../images/SampleBookShelf.png"
       ],
-      url: 'https://facebook.com'
+      url: 'https://gentle-sands-52914.herokuapp.com/'
     },
     {
       id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
+      title: "Weather Dashboard",
+      subtitle: "Search weather / forecast for your city",
+      imageUrl: "/images/WeatherSample.png",
+      largeImageUrl : ["/images/WeatherSample.png"],
+      url: 'https://attack-theory.github.io/06WeatherDashPW/'
     },
     {
       id: 4,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
+      title: "Budget Tracker",
+      subtitle: "Keep track of your budget offline (mobile install)",
+      imageUrl: "/images/Sample2Standalone.png",
       largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
+      url: 'https://secret-chamber-01910.herokuapp.com/'
     },
     {
       id: 5,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+      title: "Day Planner",
+      subtitle: "Plan your day! Save events for later.",
+      imageUrl: "/images/plannerScreen.png",
+      largeImageUrl: ["/images/plannerScreen.png"],
+      url: "https://attack-theory.github.io/05Planner/Develop"
     },
     {
       id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+      title: "Password Generator",
+      subtitle: "Generate a random password based on your criteria",
+      imageUrl: "/images/passwordGenScreen.png",
+      largeImageUrl: ["/images/passwordGenScreen.png"],
+      url: "https://attack-theory.github.io/03Password_Gen/index.html"
     },
+
+    /*
     {
       id: 7,
       title: "Beautiful Pendrive",
@@ -274,6 +279,8 @@ const database = {
       imageUrl: "/images/portfolio-image-5.jpg",
       largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
     }
+
+    */
   ],
   experience: {
     workingExperience: [
@@ -473,10 +480,12 @@ Mock.onGet("/api/information").reply(config => {
   return [200, response];
 });
 
+/*
 Mock.onGet("/api/services").reply(config => {
   const response = database.services;
   return [200, response];
 });
+
 
 Mock.onGet("/api/reviews").reply(config => {
   const response = database.reviews;
@@ -487,11 +496,14 @@ Mock.onGet("/api/skills").reply(config => {
   const response = database.skills;
   return [200, response];
 });
+*/
 
 Mock.onGet("/api/portfolios").reply(config => {
   const response = database.portfolios;
   return [200, response];
 });
+
+
 
 Mock.onGet("/api/experience").reply(config => {
   const response = database.experience;

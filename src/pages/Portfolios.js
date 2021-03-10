@@ -8,7 +8,7 @@ import PortfoliosView from "../components/PortfoliosView";
 function Portfolios() {
   const [portfolios, setPortfoios] = useState([]);
   const [currentPage, setCurrentPage] = useState(1);
-  const [portfoliosPerPage] = useState(9);
+  const [portfoliosPerPage] = useState(6);
 
   useEffect(() => {
     let mounted = true;
@@ -36,7 +36,7 @@ function Portfolios() {
     <Layout>
       <div className="mi-about mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
-          <Sectiontitle title="Portfolios" />
+          <Sectiontitle title="Portfolio" />
           {<PortfoliosView portfolios={currentPortfolios} />}
           {!(portfolios.length > portfoliosPerPage) ? null : (
             <Pagination
