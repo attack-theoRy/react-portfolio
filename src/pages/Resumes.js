@@ -26,6 +26,7 @@ function Resumes(){
 
   return (
     <Layout>
+      {/* 
       <div className="mi-skills-area mi-section mi-padding-top">
         <div className="container">
           <Sectiontitle title="My Skills" />
@@ -40,6 +41,7 @@ function Resumes(){
           </div>
         </div>
       </div>
+      */}
       <div className="mi-resume-area mi-section mi-padding-top mi-padding-bottom">
         <div className="container">
           <Sectiontitle title="Resume" />

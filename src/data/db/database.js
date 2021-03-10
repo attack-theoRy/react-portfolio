@@ -286,48 +286,48 @@ const database = {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2019 - Present",
+        position: "Wordpress Web Developer",
+        company: "Numbulary",
+        details: "Website in-progess. Daily entries about interesting numbers everyone should know about",
       },
       {
         id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2020 - Present",
+        position: "Property Manager / Social Worker",
+        company: "Options Recovery Services",
+        details: "Housing advocate for low-income and those in need. Help clients sign up for section-8 housing and transitional / homeless into permanent housing. Also provide tutoring for those that need help with technology."
       },
       {
         id: 3,
-        year: "2014 - 1016",
+        year: "2016-2017",
         position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      }
+        company: "Herbal Relief Alternative",
+        details: "Created e-commerce site for medical marijuana dispensary."
+      },
+      {
+        id: 4,
+        year: "2013",
+        position: "IT Consultant",
+        company: "Bay Computing Group",
+        details: "Managed IT Service provider for 50+ Bay Area Companies."
+      },
+
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2020 - 2021",
+        graduation: "Coding Bootcamp",
+        university: "UC Davis",
+        details: "Updating my coding skills. Learning HTML, Javascript, CSS, Node.js, React, MySQL."
       },
       {
         id: 2,
-        year: "2016 - 2018",
         graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        university: "Full Sail University",
+        details: "Accelerated Bachelor's Degree Program. Worked mainly with C++, MFC and C. Final project was a full 3-D video game. My role was gameplay programmer"
       },
-      {
-        id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      }
     ]
   },
   blogs: [
@@ -468,9 +468,9 @@ const database = {
     }
   ],
   contactInfo: {
-    phoneNumbers: ['+012-3456-7891', '+012-3456-7892'],
-    emailAddress: ['admin.sitename@example.com', 'info.sitename@example.com'],
-    address: "121 King Street, Melbourne, Victoria 3000, Australia"
+    phoneNumbers: ['(510) 684 8821', '(341) 333 9113'],
+    emailAddress: ['PiroozWallace@outlook.com', 'PiroozWallace@gmail.com'],
+    address: "Lake Merrit, Oakland"
   }
 }
 

@@ -81,7 +81,7 @@ function Contact(){
           <Sectiontitle title="Contact Me"/>
           <div className="row">
             <div className="col-lg-6">
-              <div className="mi-contact-formwrapper">
+           {/*    <div className="mi-contact-formwrapper">
                 <h4>Get In Touch</h4>
                 <form action="#" className="mi-form mi-contact-form" onSubmit={submitHandler}>
                   <div className="mi-form-field">
@@ -106,7 +106,17 @@ function Contact(){
                 </form>
                 {handleAlerts()}
               </div>
-            </div>
+
+              */}
+            
+            <div class="map">
+						<div class="map-overlay"></div>
+						<iframe
+							src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6304.756503409481!2d-122.2607488181749!3d37.80460829593676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808f87484f20d7f9%3A0xf205c3eb3932afae!2sLake%20Merritt!5e0!3m2!1sen!2sus!4v1606332257352!5m2!1sen!2sus"
+							width="500" height="450" frameborder="1" allowfullscreen=""
+							aria-hidden="false" tabindex="0"></iframe>"
+              </div>
+					</div>
             <div className="col-lg-6">
               <div className="mi-contact-info">
                 {!phoneNumbers ? null : (
