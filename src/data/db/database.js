@@ -97,7 +97,7 @@ const database = {
       id: 1,
       title: "Project Wknd",
       subtitle: "Find something to do on the weekend",
-      imageUrl: "https://attack-theory.github.io/react-portfolio/public/images/unsplash.jpg",
+      imageUrl: "images/unsplash.jpg",
       largeImageUrl: ["images/unsplash.jpg"],
       url: 'https://attack-theory.github.io/ProjectWknd/homePage.html'
     },
@@ -107,8 +107,8 @@ const database = {
       subtitle: "Find books and create your own bookshelf",
       imageUrl: "images/SampleBookShelf.png",
       largeImageUrl: [
-        "/images/SampleBookShelf.png",
-        "/images/SampleBookShelf.png"
+        "images/SampleBookShelf.png",
+        "images/SampleBookShelf.png"
       ],
       url: 'https://gentle-sands-52914.herokuapp.com/'
     },
@@ -116,32 +116,32 @@ const database = {
       id: 3,
       title: "Weather Dashboard",
       subtitle: "Search weather / forecast for your city",
-      imageUrl: "/images/WeatherSample.png",
-      largeImageUrl : ["/images/WeatherSample.png"],
+      imageUrl: "images/WeatherSample.png",
+      largeImageUrl : ["images/WeatherSample.png"],
       url: 'https://attack-theory.github.io/06WeatherDashPW/'
     },
     {
       id: 4,
       title: "Budget Tracker",
       subtitle: "Keep track of your budget offline (mobile install)",
-      imageUrl: "/images/Sample2Standalone.png",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
+      imageUrl: "images/Sample2Standalone.png",
+      largeImageUrl: ["images/Sample2Standalone.png"],
       url: 'https://secret-chamber-01910.herokuapp.com/'
     },
     {
       id: 5,
       title: "Day Planner",
       subtitle: "Plan your day! Save events for later.",
-      imageUrl: "/images/plannerScreen.png",
-      largeImageUrl: ["/images/plannerScreen.png"],
+      imageUrl: "images/plannerScreen.png",
+      largeImageUrl: ["images/plannerScreen.png"],
       url: "https://attack-theory.github.io/05Planner/Develop"
     },
     {
       id: 6,
       title: "Password Generator",
       subtitle: "Generate a random password based on your criteria",
-      imageUrl: "/images/passwordGenScreen.png",
-      largeImageUrl: ["/images/passwordGenScreen.png"],
+      imageUrl: "images/passwordGenScreen.png",
+      largeImageUrl: ["images/passwordGenScreen.png"],
       url: "https://attack-theory.github.io/03Password_Gen/index.html"
     },
 

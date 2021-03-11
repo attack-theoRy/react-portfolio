@@ -1,4 +1,4 @@
-# Project WORM
+# React Portfolio
 
 [![MIT License](https://img.shields.io/badge/license-MIT-blue.svg)](#license) 
 ![issues](https://img.shields.io/github/issues/alexbachicha/WORM)
@@ -21,7 +21,7 @@
 
 ## Description
 
-Employee Directory is a React app that takes a list of employees / users retrieved from a random user generator api and displays them in a table. The names can be sorted in alphabetical order by clicking "Name" at the top. 
+This is my portfolio that uses react 
 ![Table of Employees](SampleScreen.png)
 
 The table can also be filtered by name by typing in the input at the top. It filters in real-time with no need to submit.
