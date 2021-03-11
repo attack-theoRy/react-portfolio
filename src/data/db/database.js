@@ -18,9 +18,9 @@ const database = {
       dribbble: '',
       github: 'https://github.com/attack-theoRy'
     },
-    brandImage: '../images/profilepic.png',
-    aboutImage: '../images/profilepic.png',
-    aboutImageLg: '/images/profilepic.jpg',
+    brandImage: 'images/profilepic.png',
+    aboutImage: 'images/profilepic.png',
+    aboutImageLg: 'images/profilepic.jpg',
     cvfile: 'https://www.visualcv.com/piroozw/pdf/'
   },
   services: [
@@ -97,7 +97,7 @@ const database = {
       id: 1,
       title: "Project Wknd",
       subtitle: "Find something to do on the weekend",
-      imageUrl: "https://attack-theory.github.io/react-portfolio/images/unsplash.jpg",
+      imageUrl: "https://attack-theory.github.io/react-portfolio/public/images/unsplash.jpg",
       largeImageUrl: ["images/unsplash.jpg"],
       url: 'https://attack-theory.github.io/ProjectWknd/homePage.html'
     },
