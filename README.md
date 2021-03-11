@@ -47,7 +47,7 @@ run `npm start ` and open a browser to http://localhost:3000/employee-directory
 * React
 * CSS
 * NodeJS
-* Random User API 
+* Axios
 * Bootstrap
 
 ## Questions
