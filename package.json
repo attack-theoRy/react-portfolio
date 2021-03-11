@@ -1,6 +1,6 @@
 {
-  "name": "tf-react-chester",
-  "homepage": "https://attack-theoRy.github.io/react-portfolio",
+  "name": "react-portfolio",
+  "homepage": "https://attack-theoRy.github.io/react-portfolio/",
   "version": "3.0.0",
   "dependencies": {
     "axios": "^0.19.0",

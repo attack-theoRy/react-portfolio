@@ -18,9 +18,9 @@ const database = {
       dribbble: '',
       github: 'https://github.com/attack-theoRy'
     },
-    brandImage: 'images/profilepic.png',
+    brandImage: 'public/images/profilepic.png',
     aboutImage: 'images/profilepic.png',
-    aboutImageLg: 'images/profilepic.jpg',
+    aboutImageLg: 'public/images/profilepic.jpg',
     cvfile: 'https://www.visualcv.com/piroozw/pdf/'
   },
   services: [
