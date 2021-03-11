@@ -5,7 +5,7 @@
 
 * [Pirooz Wallace](https://github.com/attack-theoRy)
 
-[Deployed GitHub Pages App](https://attack-theory.github.io/employee-directory/)
+[Deployed GitHub Pages App](https://attack-theory.github.io/react-portfolio/)
 
 
 

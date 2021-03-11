@@ -97,18 +97,18 @@ const database = {
       id: 1,
       title: "Project Wknd",
       subtitle: "Find something to do on the weekend",
-      imageUrl: "../images/unsplash.jpg",
-      largeImageUrl: ["unsplash.jpg"],
+      imageUrl: "https://attack-theory.github.io/react-portfolio/images/unsplash.jpg",
+      largeImageUrl: ["images/unsplash.jpg"],
       url: 'https://attack-theory.github.io/ProjectWknd/homePage.html'
     },
     {
       id: 2,
       title: "Project WORM",
       subtitle: "Find books and create your own bookshelf",
-      imageUrl: "../images/SampleBookShelf.png",
+      imageUrl: "images/SampleBookShelf.png",
       largeImageUrl: [
-        "../images/SampleBookShelf.png",
-        "../images/SampleBookShelf.png"
+        "/images/SampleBookShelf.png",
+        "/images/SampleBookShelf.png"
       ],
       url: 'https://gentle-sands-52914.herokuapp.com/'
     },
