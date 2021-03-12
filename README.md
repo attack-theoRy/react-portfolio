@@ -21,13 +21,15 @@
 
 ## Description
 
-This is my portfolio that uses react 
-![Table of Employees](SampleScreen.png)
+This is a portfolio of my work as well as a resume and how to contact me. I used a professional template and heavily modified it for my own purposes. There is a portfolio component that is used multiple times on the portfolio page for each project and a react router used to serve each page. There is a footer as well with the year and my name.
 
-The table can also be filtered by name by typing in the input at the top. It filters in real-time with no need to submit.
+This is the front page, you can also switch from light to dark theme
+
+![Front Page](sample1.png)
 
 
-![Sample Filter](SampleScreen2.png)
+This is the portfolio page, you can click on each project to zoom in or click the link to be taken to the deployed app.
+![Portfolio](sample2.png)
 
 
 ## Installation
@@ -39,7 +41,7 @@ To install repo locally
 ` npm init -y`
 ` npm i bootstrap `
 ` npm i axios `
-run `npm start ` and open a browser to http://localhost:3000/employee-directory
+run `npm start ` and open a browser to http://localhost:3000
 
 
 ## Tech
