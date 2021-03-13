@@ -64,7 +64,7 @@ function About() {
           <div className="row">
             <div className="col-lg-6">
               <div className="mi-about-image">
-                <ProgressiveImage4
+                <ProgressiveImage
                   src={information.aboutImage}
                   placeholder="/images/profilepic.png"
                 >

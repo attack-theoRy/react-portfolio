@@ -28,6 +28,7 @@ function App() {
 
   return (
     <BrowserRouter>
+    
       <div className="light-mode">
         <span className="icon">
           <Icon.Sun />
@@ -38,16 +39,19 @@ function App() {
         <Route path="/" exact>
           <Home lightMode={lightMode}/>
         </Route>
+        {/* 
         <Route path="/about" component={About} />
-      {/* <Route path="/resume" component={Resumes} /> */}  
+       <Route path="/resume" component={Resumes} />  
         <Route path="/portfolios" component={Portfolios} />
-     {/*    <Route path="/blogs" exact component={Blogs} /> */}
-    {/*    <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />*/}
+        <Route path="/blogs" exact component={Blogs} /> 
+        <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />
       <Route path="/contact" component={Contact} />
-        <Route path="*" component={Notfound} />
+        <Route path="*" component={Notfound} /> */}
       </Switch>
     </BrowserRouter>
   );
 }
+
+
 
 export default App;
