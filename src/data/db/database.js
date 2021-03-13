@@ -103,7 +103,7 @@ const database = {
     },
     {
       id: 2,
-      title: "Project WORM",
+      title: "Project WORM Updates",
       subtitle: "Find books and create your own bookshelf",
       imageUrl: "images/SampleBookShelf.png",
       largeImageUrl: [
