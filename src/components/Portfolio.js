@@ -17,7 +17,7 @@ function Portfolio(props) {
         {/* <img src={imageUrl} alt={title} /> */}
         <ProgressiveImage
           src={imageUrl}
-          placeholder="/images/portfolio-image-placeholder.png"
+          placeholder="/images/unsplash.png"
         >
           {src => <img src={src} alt={title} />}
         </ProgressiveImage>
