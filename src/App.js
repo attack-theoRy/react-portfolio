@@ -39,7 +39,7 @@ function App() {
           <Home lightMode={lightMode}/>
         </Route>
         <Route path="/about" component={About} />
-        <Route path="/resume" component={Resumes} />
+      {/* <Route path="/resume" component={Resumes} /> */}  
         <Route path="/portfolios" component={Portfolios} />
      {/*    <Route path="/blogs" exact component={Blogs} /> */}
     {/*    <Route path="/blogs/blog-details/:id/:title" component={BlogDetails} />*/}
