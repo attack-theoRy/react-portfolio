@@ -11,12 +11,11 @@
 
 ## Table of Contents
 * [Description](#description)
-* [User Story](#user-story)
 * [Installation](#installation)
-* [Tech](#tech)4
-* [License](#license)
+* [Tech](#tech)
 * [Questions](#Questions)
-* [Credits](#Credits)
+* [License](#license)
+
 
 ## Description
 
