@@ -9,7 +9,6 @@
 
 
 
-
 ## Table of Contents
 * [Description](#description)
 * [User Story](#user-story)
@@ -21,7 +20,7 @@
 
 ## Description
 
-This is a portfolio of my work as well as a resume and how to contact me. I used a professional template and heavily modified it for my own purposes. There is a portfolio component that is used multiple times on the portfolio page for each project and a react router used to serve each page. There is a footer as well with the year and my name.
+This is a portfolio of my work as well as a resume and how to contact me. I used a professional template and heavily modified it for my own purposes. There is a portfolio component that is used multiple times on the portfolio page for each project and a react router used to serve each page. There is a footer as well with the year and my name. There is a dark / light theme switch as well built-in. 
 
 This is the front page, you can also switch from light to dark theme
 
@@ -31,16 +30,17 @@ This is the front page, you can also switch from light to dark theme
 This is the portfolio page, you can click on each project to zoom in or click the link to be taken to the deployed app.
 ![Portfolio](sample2.png)
 
+To download my resume, click on about and goto download cv
+
+![Resume](sample3.png)
+
 
 ## Installation
 
-None needed, use the Github Pages deploy link
 
 To install repo locally
 ` npx create-react-app ` 
-` npm init -y`
-` npm i bootstrap `
-` npm i axios `
+` npm install ` to intall the dependencies in package.json
 run `npm start ` and open a browser to http://localhost:3000
 
 
